@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Brink Home Ventilation",
+        "description": "Por favor faça logion no seu portal do  Brink Home .",
+        "data": {
+          "username": "Email",
+          "password": "Senha"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Erro na ligação tente novamente mais tarde.",
+      "invalid_auth": "Email ou senha errada.",
+      "unknown": "Unknown error."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configurar a integração do Brink Home ",
+        "description": "Atualizar o intervalo de atuailzação.",
+        "data": {
+          "scan_interval": "Pesquisa a cada (segundos)"
+        }
+      }
+    }
+  }
+}
